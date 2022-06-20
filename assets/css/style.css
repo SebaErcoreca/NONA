@@ -1,4 +1,61 @@
-/* body{
-    background-image: url("file:///C:/Users/Usuario/Desktop/Proyecto%20JS%20-%20Seba%20Ercoreca/assets/img/bg_fresh_snow.png");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
- */
+
+.iconColor {
+    color: white;
+    border-color: white
+}
+
+.navbarButton {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.logContainer {
+    text-align: -webkit-center;
+}
+
+.logoMenu {
+    border-radius: 50%;
+    height: 100%;
+    width: 40%;
+}
+
+.iconCart {
+    height: 2rem;
+    width: 2rem;
+}
+
+.iconMenu {
+    height: 2rem;
+    width: 2rem;
+}
+
+svg {
+    color: white !important;
+}
+
+.bg-footer {
+    background-color: #979A9D;
+}
+
+.logoMenu__footer {
+    border-radius: 50%;
+    height: 100%;
+    width: 18%;
+}
+
+.bg__main {
+    background-color: #979a9db7;
+}
+
+a, a:hover{
+    color:black;
+    text-decoration: none;
+}
+
+

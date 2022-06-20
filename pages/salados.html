@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<!-- nodo -->
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- css -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -29,13 +27,11 @@
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 
-    <title>Nona</title>
+    <title>Salados</title>
 </head>
 
-
-<!-- nodo -->
-
 <body class="text-white">
+
     <header class="bg-dark">
 
         <div class="pos-f-t">
@@ -46,7 +42,9 @@
                     <ion-icon name="menu" class="iconMenu navbar-toggler-icon"></ion-icon>
                 </button>
                 <div class="logContainer">
-                    <img src="./assets/img/logo.jpg" alt="NONA logo" class="logoMenu">
+                    <a href="../index.html">
+                        <img src="../assets/img/logo.jpg" alt="NONA logo" class="logoMenu">
+                    </a>
                 </div>
                 <div>
                     <ion-icon name="cart" class="iconCart iconColor"></ion-icon>
@@ -55,22 +53,18 @@
 
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark p-4">
-                    <!-- nodoPadre -->
                     <ul class="nav nav-pills flex-column mb-auto">
                         <li class="nav-item text-white">Dulces
-                            <a href="./pages/dulces.html" class="nav-link"></a>
+                            <a href="./dulces.html" class="nav-link"></a>
                         </li>
-                        <!-- nodoHijo -->
-                        <li class="nav-item text-white">
-                            <!-- nodotexto -->Salados
-                            <a href="./pages/salados.html" class="nav-link"></a>
+                        <li class="nav-item text-white">Salados
+                            <a href="./salados.html" class="nav-link"></a>
                         </li>
-                        <!-- getElementsbyClassName -->
                         <li class="nav-item text-white">Shop
-                            <a href="./pages/shop.html" class="nav-link"></a>
+                            <a href="./shop.html" class="nav-link"></a>
                         </li>
                         <li class="nav-item text-white">Servicios
-                            <a href="./pages/servicios.html" class="nav-link"></a>
+                            <a href="./servicios.html" class="nav-link"></a>
                         </li>
                     </ul>
                 </div>
@@ -78,65 +72,14 @@
         </div>
     </header>
 
-    <main class="bg-dark">
-        <div class="d-flex w-100">
-            <img src="./assets/img/mainPic.PNG" alt="foto NONA + pedido" class="w-100">
-        </div>
-        <div class="d-flex justify-content-center m-3">
-            <h1>[ 100% gluten free ]</h1>
-        </div>
-        <div>
-            <!-- seccion testimonios por hacer -->
-        </div>
+    <main>
+
     </main>
 
+    <footer>
 
-    <footer class="bg-footer">
-        <div class="d-flex flex-md-column p-4">
-            <div>
-                <ul>
-                    <li>
-                        <ion-icon name="logo-instagram" class="iconColor"></ion-icon>
-                    </li>
-                    <li>
-                        <ion-icon name="logo-whatsapp" class="iconColor"></ion-icon>
-                    </li>
-                    <li>
-                        <ion-icon name="call" class="iconColor"></ion-icon>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <div>
-                    <ul>
-                        <li>Pedidos</li>
-                        <li>Shop</li>
-                        <li>Catering</li>
-                    </ul>
-                </div>
-                <div class="logContainer">
-                    <img src="./assets/img/logo.jpg" alt="NONA logo" class="logoMenu__footer">
-                </div>
-            </div>
-            <div>
-                <div>
-                    <h3>Contacto</h3>
-                </div>
-                <div>
-                    <ul>
-                        <li>098987877</li>
-                        <li>Costa Rica 1555, 11500 Montevideo, Departamento de Montevideo</li>
-                        <li>Since 2019 :)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </footer>
 
 </body>
-
-<!-- js -->
-    <!-- <script src="assets/js/_variables.js"></script>
-    <script src="assets/js/main.js"></script> -->
 
 </html>
